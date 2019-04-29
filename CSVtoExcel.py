@@ -12,7 +12,7 @@ if sys.version[0] == '2':
 if __name__ == '__main__':
     workbook = Workbook()
     worksheet = workbook.active
-    with open('C:\\Users\\hu8OmarA\\Desktop\\20190429-0645.log', 'r') as f:
+    with open('*.csv', 'r') as f:
         reader = csv.reader(f)
         for r, row in enumerate(reader):
             for c, col in enumerate(row):
